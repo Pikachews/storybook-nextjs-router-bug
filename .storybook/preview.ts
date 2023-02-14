@@ -1,3 +1,7 @@
+import withDecoratorTest from "./decorators/withDecoratorTest"
+
+export const decorators = [withDecoratorTest];
+
 export const parameters = {
   backgrounds: {
     default: 'light',
